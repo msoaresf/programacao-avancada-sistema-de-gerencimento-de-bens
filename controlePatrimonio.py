@@ -120,6 +120,7 @@ class ControlePatrimonio:
                         removido = True
                         print("BEM REMOVIDO")
                         self.salvar_dados(self.__bens)
+                        break
         else:
              print("impossivel apagar um bem que nao existe")
         return removido
