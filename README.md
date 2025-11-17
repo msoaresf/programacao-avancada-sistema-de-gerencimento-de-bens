@@ -18,7 +18,7 @@ Deve conter métodos como:
 • Outros métodos que o aluno considerar necessários (ex: atualizar dados via set).
 2. Classe ControlePatrimonio
 Gerencia os bens e a persistência de dados. Deve conter métodos como:
-• carregar_dados(self) — carrega os bens do arquivo binário.
+• salvar_dados(self) — carrega os bens do arquivo binário.
 • salvar_dados(self) — salva os bens no arquivo binário.
 • cadastrar_bem(self) — adiciona um novo bem.
 • listar_bens(self) — exibe todos os bens cadastrados.
